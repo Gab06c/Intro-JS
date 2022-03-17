@@ -1,13 +1,20 @@
+// actividad 1
+
+
+// actividad 2
+
 function sumaArreglo () {
 
     let suma = 0;
 
-     for (i = 0, i < arreglo.length, i++) {
-         suma += arreglo[i];
+    for(var index = 0; index < arreglo.length; index++){
+         suma += arreglo[index];
      }
      
     return suma 
 }
 
-sumaArreglo (const arreglo = [1, 2, 3, 4, 10, 11] )
-console.log(sumaArreglo)
+console.log(sumaArreglo(arreglo = [1, 2, 3, 4, 10, 11]))
+
+// palíndromo 
+
